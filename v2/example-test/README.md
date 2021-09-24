@@ -1,3 +1,14 @@
+# Project with test use cases on CDK
+
+## Create a snapshot
+```
+cdk synth > snapshot/template.yml
+```
+
+## PyTest
+```
+pytest unittests
+```
 
 # Welcome to your CDK Python project!
 

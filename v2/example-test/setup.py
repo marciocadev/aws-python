@@ -6,7 +6,7 @@ with open("README.md") as fp:
 
 
 setuptools.setup(
-    name="test_stack_py",
+    name="example_test",
     version="0.0.1",
 
     description="An empty CDK Python app",
@@ -15,11 +15,11 @@ setuptools.setup(
 
     author="author",
 
-    package_dir={"": "test_stack_py"},
-    packages=setuptools.find_packages(where="test_stack_py"),
+    package_dir={"": "example_test"},
+    packages=setuptools.find_packages(where="example_test"),
 
     install_requires=[
-        "aws-cdk-lib==2.0.0-rc.21",
+        "aws-cdk-lib==2.0.0-rc.23",
         "constructs>=10.0.0,<11.0.0",
     ],
 
