@@ -8,6 +8,8 @@ cdk synth > snapshot/template.yml
 ## PyTest
 ```
 pytest unittests
+pytest unittests/lambda_tests --html=reports/report-lambdas.html
+pytest unittests/infra_tests --html=reports/report-infra.html
 ```
 
 # Welcome to your CDK Python project!

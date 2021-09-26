@@ -3,7 +3,7 @@ from example_test.example_test_stack import ExampleTestStack
 from unittest import TestCase
 
 
-class TestLambdas(TestCase):
+class TestCreateLambdas(TestCase):
 
     @classmethod
     def setUpClass(cls):
